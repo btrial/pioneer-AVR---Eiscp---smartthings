@@ -6,6 +6,8 @@
  *  3. Create a device using PioneerIP as the device handler using a hexadecimal representation of IP:port as the device network ID value
  *  For example, a receiver at 192.168.1.42:60128 would have a device network ID of C0A8012A:EAE0
  *  Note: Port 60128 is the default Onkyo eISCP port so you shouldn't need to change anything after the colon
+ *  To see what codes are used for each remote button connect by "telnet 192.168.1.142 60128" from your command line, and press buttons on remote to see what code it is
+ *  or check "pioneer_codes.txt" file.
  * ISCP commands were found at https://github.com/miracle2k/onkyo-eiscp/blob/master/eiscp-commands.yaml
  */
 
